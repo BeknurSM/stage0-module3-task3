@@ -4,7 +4,7 @@ public class DeclaringVars {
     public static void main(String[] args) {
         //write code here
         int a, b, c;
-        a = 10; b = 10; c = 10;
-        System.out.println(c);
+        a = b = c = 10;
+        System.out.println(c+"\n");
     }
 }
